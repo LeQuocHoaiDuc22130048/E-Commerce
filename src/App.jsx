@@ -1,13 +1,14 @@
-
-import './App.css'
-
+import './assets/styles/main.scss';
+import Layout from '@components/Layout/Layout';
+import Header from '@components/Header/Header';
+import Footer from '@components/Footer/Footer';
+import Button from '@components/Button/Button';
 function App() {
-  
-
-  return (
-    <div> Ecommerce App
-    </div>
-  )
+    return (
+        <>
+            <Header />
+        </>
+    );
 }
 
-export default App
+export default App;
